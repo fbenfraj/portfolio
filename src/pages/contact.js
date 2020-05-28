@@ -6,7 +6,7 @@ import "./contact.scss"
 
 const contact = () => {
   return (
-    <div>
+    <div className="contact">
       <Layout>
         <SEO title="Contact" />
         <h1>Contact</h1>

@@ -9,7 +9,7 @@ const about = () => {
         <SEO title="About" />
         <h1>About Me</h1>
         <p>
-          My name is Farouk Ben Fraj. I am a a fullstack web developer. I love
+          My name is Farouk Ben Fraj. I am a fullstack web developer. I love
           JavaScript and managing to solve complicated algorithmic problems.
         </p>
         <p>

@@ -1,13 +1,6 @@
 import React from "react"
 import "./Footer.scss"
 
-const phantom = {
-  display: "block",
-  padding: "20px",
-  height: "60px",
-  width: "100%",
-}
-
 const footerStyle = {
   backgroundColor: "#F8F8F8",
   borderTop: "1px solid #E7E7E7",
@@ -23,7 +16,7 @@ const footerStyle = {
 const Footer = () => {
   return (
     <footer>
-      <div style={phantom} />
+      <div id="phantom" />
       <div className="footer" style={footerStyle}>
         {new Date().getFullYear()}, Built with
         {` `}

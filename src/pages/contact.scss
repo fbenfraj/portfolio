@@ -28,3 +28,13 @@
   background-color: $tertiary-bgc;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 480px) {
+  #message {
+    height: 20px;
+  }
+
+  .contact h1 {
+    margin-bottom: 5px;
+  }
+}
