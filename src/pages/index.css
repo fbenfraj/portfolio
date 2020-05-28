@@ -16,6 +16,7 @@
 
 .home-title {
   font-family: "Montserrat", sans-serif;
+  padding-top: 200px;
   max-width: 850px;
   font-size: 4rem;
   font-weight: bold;
@@ -29,6 +30,11 @@
 
 @media only screen and (max-width: 480px) {
   .home-title {
+    padding-top: 10px;
     font-size: 3rem;
+  }
+
+  .home-socials-logo {
+    height: 40px;
   }
 }
