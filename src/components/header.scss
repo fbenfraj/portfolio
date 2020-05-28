@@ -1,0 +1,16 @@
+@import "../styles/colors.scss";
+
+@font-face {
+  font-family: "Sweet Purple";
+  src: url("../assets/sweet\ purple.ttf") format("truetype");
+}
+
+.header {
+  height: 9vh;
+  background-color: $secondary-bgc;
+}
+
+.header-title {
+  font-family: "Sweet Purple";
+  color: $secondary-color;
+}

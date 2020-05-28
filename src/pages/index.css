@@ -1,0 +1,36 @@
+@keyframes slideUp {
+  from {
+    transform: translate(0, 200px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+.home {
+  animation-name: slideUp;
+  animation-duration: 2s;
+}
+
+.home-title {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 200px;
+  max-width: 850px;
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.home-socials-logo {
+  height: 50px;
+  margin: 0 5px;
+}
+
+@media only screen and (max-width: 480px) {
+  .home-title {
+    padding-top: 135px;
+    font-size: 3rem;
+  }
+}
