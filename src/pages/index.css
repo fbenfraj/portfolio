@@ -9,11 +9,6 @@
   }
 }
 
-.home {
-  animation-name: slideUp;
-  animation-duration: 2s;
-}
-
 .home-title {
   font-family: "Montserrat", sans-serif;
   padding-top: 200px;
@@ -21,11 +16,15 @@
   font-size: 4rem;
   font-weight: bold;
   letter-spacing: 0.5px;
+  animation-name: slideUp;
+  animation-duration: 1s;
 }
 
 .home-socials-logo {
   height: 50px;
   margin: 0 5px;
+  animation-name: slideUp;
+  animation-duration: 2s;
 }
 
 @media only screen and (max-width: 480px) {

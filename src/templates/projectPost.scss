@@ -1,0 +1,9 @@
+@import "../styles/colors.scss";
+
+.post-link {
+  text-decoration: none;
+}
+
+.post-link:visited {
+  color: $tertiary-bgc;
+}

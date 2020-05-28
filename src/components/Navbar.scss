@@ -4,9 +4,6 @@
 .topnav {
   background-color: $secondary-bgc;
   overflow: hidden;
-  -webkit-box-shadow: 0px 17px 11px -11px rgba(82, 82, 82, 1);
-  -moz-box-shadow: 0px 17px 11px -11px rgba(82, 82, 82, 1);
-  box-shadow: 0px 17px 11px -11px rgba(82, 82, 82, 1);
 }
 
 /* Style the links inside the navigation bar */
@@ -65,12 +62,11 @@
     right: 0;
     top: 0;
     background-color: $secondary-bgc;
-    padding-top: 20px;
   }
   .topnav.responsive .topnav-link {
     float: none;
     display: block;
     text-align: left;
-    padding-top: 20px;
+    margin-top: 20px;
   }
 }
